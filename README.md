@@ -8,7 +8,7 @@ Hello and welcome to the repository for Denny Hanows's YouTube channel content! 
 - `/jquery-vs-react`: A featured series that draws comparisons between jQuery and React to highlight their individual strengths and differences.
   - `/[video topic]`: Corresponds to each YouTube video focused on comparing jQuery and React.
     - `/jquery`: Demonstrates how to implement specific features using jQuery.
-    - `/react`: Offers a glimpse into accomplishing the same features utilizing React's capabilities.
+    - `/reactjs`: Offers a glimpse into accomplishing the same features utilizing React's capabilities.
 
 ## Feedback
 

@@ -6,8 +6,8 @@ $(document).ready(function () {
         $('#result').empty();
 
         // Validation
-        var isValid = true;
-        var errorMessage = '';
+        let isValid = true;
+        let errorMessage = '';
 
         const name = $('#name').val();
         if (name.length < 2) {

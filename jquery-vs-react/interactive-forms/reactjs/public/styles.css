@@ -1,0 +1,116 @@
+/* Basic Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'VT323', monospace; /* Retro, more readable pixel font */
+    background-color: #3A99D9; /* Bright blue background */
+    color: #ffffff;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+    color: #FFD700;
+}
+
+/* Style for form elements */
+form {
+    margin: 20px 0;
+}
+
+label {
+    margin-top: 10px;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 5px; /* Rounded corners */
+    border: 2px solid #ffffff; /* White border */
+    outline: none;
+    background: rgba(255, 255, 255, 0.5); /* Slightly transparent white */
+    color: #444;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus,
+select:focus,
+textarea:focus {
+    border: 2px solid #FFD700;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button, input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FFD700; /* Gold color */
+    color: #444;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #FFA500; /* Orange color when hovered */
+}
+
+::placeholder {
+    color: #666; /* Lighter gray for placeholder text */
+    opacity: 1; /* Full opacity */
+}
+
+/* Style for links */
+a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style for the select element */
+select {
+    -webkit-appearance: none; /* Removes default styling on WebKit browsers */
+    -moz-appearance: none; /* Removes default styling on Firefox browsers */
+    appearance: none; /* Removes default styling */
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+    outline: none;
+    background: rgba(255, 255, 255, 0.5) url('arrow_down.png') no-repeat calc(100vw - 4.3rem) center;
+    background-size: 15px; /* Size of the background icon */
+    color: #444;
+    cursor: pointer;
+}
+
+/* Firefox requires an additional pseudo-element to hide the arrow */
+select::-ms-expand {
+    display: none; /* Hides the default arrow in IE */
+}

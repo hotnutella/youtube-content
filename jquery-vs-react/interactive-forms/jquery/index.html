@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Interactive Forms</title>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <h3>Interactive Forms</h3>
+        <form id="myForm">
+            <div>
+                <label for="name">Name</label>
+                <input id="name"/>
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input id="email" type="email" />
+            </div>
+
+            <div>
+                <label for="dob">Date of Birth</label>
+                <input id="dob" type="date" />
+            </div>
+
+            <div>
+                <label for="color">Favourite color</label>
+                <select id="color">
+                    <option></option>
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="blue">Blue</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="news">Subscribe to our newsletter</label>
+                <input id="news" type="checkbox" />
+            </div>
+
+            <div>
+                <h4>Hobbies</h4>
+                <button type="button" id="addHobby">Add Hobby</button>
+                <div id="hobbyList"></div>
+            </div>
+
+            <div>
+                <input type="submit" />
+            </div>
+        </form>
+        <div id="result"></div>
+
+        <script src="logic.js"></script>
+    </body>
+
+</html>

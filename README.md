@@ -4,6 +4,7 @@ Hello and welcome to the repository for Denny Hanows's YouTube channel content! 
 
 ## Repository Structure
 
+- `/common`: Contains common things, like styles and graphics, used throughout the whole repository. These things are not covered in detail in the videos.
 - `/jquery-vs-react`: A featured series that draws comparisons between jQuery and React to highlight their individual strengths and differences.
   - `/[video topic]`: Corresponds to each YouTube video focused on comparing jQuery and React.
     - `/jquery`: Demonstrates how to implement specific features using jQuery.
